@@ -97,7 +97,7 @@ var config = {
     // Enabling this will run the lib-jitsi-meet no audio detection module which
     // will notify the user if the current selected microphone has no audio
     // input and will suggest another valid device if one is present.
-    enableNoAudioDetection: true,
+    enableNoAudioDetection: false,
 
     // Enabling this will show a "Save Logs" link in the GSM popover that can be
     // used to collect debug information (XMPP IQs, SDP offer/answer cycles)
