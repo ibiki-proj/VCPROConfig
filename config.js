@@ -97,7 +97,7 @@ var config = {
     // Enabling this will run the lib-jitsi-meet no audio detection module which
     // will notify the user if the current selected microphone has no audio
     // input and will suggest another valid device if one is present.
-    enableNoAudioDetection: false,
+    enableNoAudioDetection: true,
 
     // Enabling this will show a "Save Logs" link in the GSM popover that can be
     // used to collect debug information (XMPP IQs, SDP offer/answer cycles)
@@ -123,7 +123,7 @@ var config = {
 
      Start calls with audio muted. Unlike the option above, this one is only
      applied locally. FIXME: having these 2 options is confusing.
-     startWithAudioMuted: true,
+     startWithAudioMuted: flase,
 
     // Enabling it (with #params) will disable local audio output of remote
     // participants and to enable it back a reload is needed.
@@ -396,7 +396,7 @@ var config = {
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
-    enableWelcomePage: true,
+    enableWelcomePage: false,
 
     // Disable app shortcuts that are registered upon joining a conference
     // disableShortcuts: false,
@@ -472,40 +472,40 @@ var config = {
     // - it's impossible to control the placement of buttons
     // - 'desktop' controls the "Share your screen" button
     // - if `toolbarButtons` is undefined, we fallback to enabling all buttons on the UI
-     toolbarButtons: [
-        'camera',
-        'chat',
-        'closedcaptions',
-        'desktop',
-        'download',
-        'embedmeeting',
-        'etherpad',
-        'feedback',
-        'filmstrip',
-        'fullscreen',
-        'hangup',
-        'help',
-        'invite',
-        'livestreaming',
-        'microphone',
-        'mute-everyone',
-        'mute-video-everyone',
-        'participants-pane',
-        'profile',
-        'raisehand',
-        'recording',
-        'security',
-        'select-background',
-        'settings',
-        'shareaudio',
-        'sharedvideo',
-        'shortcuts',
-        'stats',
-        'tileview',
-        'toggle-camera',
-        'videoquality',
-        '__end'
-     ],
+//      toolbarButtons: [
+//         'camera',
+//         'chat',
+//         'closedcaptions',
+//         'desktop',
+//         'download',
+//         'embedmeeting',
+//         'etherpad',
+//         'feedback',
+//         'filmstrip',
+//         'fullscreen',
+//         'hangup',
+//         'help',
+//         'invite',
+//         'livestreaming',
+//         'microphone',
+//         'mute-everyone',
+//         'mute-video-everyone',
+//         'participants-pane',
+//         'profile',
+//         'raisehand',
+//         'recording',
+//         'security',
+//         'select-background',
+//         'settings',
+//         'shareaudio',
+//         'sharedvideo',
+//         'shortcuts',
+//         'stats',
+//         'tileview',
+//         'toggle-camera',
+//         'videoquality',
+//         '__end'
+//      ],
 
     // Stats
     //
